@@ -1,0 +1,17 @@
+[2025-08-14 02:45:05.171374] Encryption: Encrypted file saved at C:\D disk\OTP_V1\OTP_Encryption_Project\encrypted\encrypted.txt
+[2025-08-14 02:45:05.171779] Key Generated: Hashed key saved at C:\D disk\OTP_V1\OTP_Encryption_Project\keys\key_hash.txt
+[2025-08-14 02:50:37] Encryption: enc=encrypted_data2.txt | key_raw=key_raw2.bin | key_hash=key_hash2.txt | plaintext_bytes=5
+[2025-08-14 02:50:37] Key Generated: bytes=5 | hash=15e2e203defa0e5a4e81d5e51c3a01015d40c4100a06e21a1bc38a12fa7a12d0
+[2025-08-14 02:51:27] Decryption: enc=encrypted_data2.txt | key_raw=key_raw2.bin | out=decrypted.txt
+[2025-08-17 11:04:10] Encryption: enc=encrypted_data3.txt | key_raw=key_raw3.bin | key_hash=key_hash3.txt | plaintext_bytes=5
+[2025-08-17 11:04:10] Key Generated: bytes=5 | hash=07d0179350a4908ba270d75706d4447d122a495d1e44a42216376e0a035d70a6
+[2025-08-17 11:26:28] Encryption: enc=encrypted_data4.txt | key_raw=key_raw4.bin | key_hash=key_hash4.txt | plaintext_bytes=5
+[2025-08-17 11:26:28] Key Generated: bytes=5 | hash=487cef97f47fccf9061f88b76691ef2545a4de92ccdf4829a7c39a7d139aba3e
+[2025-08-17 11:29:26] Decryption: enc=encrypted_data4.txt | key_raw=key_raw4.bin | out=decrypted1.txt
+[2025-08-17 12:09:23] Encryption: enc=encrypted_data5.txt | key_raw=key_raw5.bin | key_hash=key_hash5.txt | plaintext_bytes=5
+[2025-08-17 12:09:23] Key Generated: bytes=5 | hash=8ae415e541fc232f3a73d150cb156ed5d69797af2277fa59a9cbef96ec259297
+[2025-08-17 12:15:36] Encryption: enc=encrypted_data6.txt | key_raw=key_raw6.bin | key_hash=key_hash6.txt | plaintext_bytes=6
+[2025-08-17 12:15:36] Key Generated: bytes=6 | hash=21b92b2b2aae9011d065afb548dd0f92f57e03a5f2270671aa19e5121ce8bfab
+[2025-08-17 12:17:59] Encryption: enc=encrypted_data7.txt | key_raw=key_raw7.bin | key_hash=key_hash7.txt | plaintext_bytes=5
+[2025-08-17 12:17:59] Key Generated: bytes=5 | hash=f306713b35325785059f38619acabb1f99eee071244d29716729d498292da65d
+[2025-08-17 12:18:26] Decryption: enc=encrypted_data7.txt | key_raw=key_raw7.bin | out=decrypted2.txt
