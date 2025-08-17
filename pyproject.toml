@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "otp-encryption-suite"
+version = "1.0.0"
+description = "A secure One-Time Pad (OTP) encryption suite with hacker-style terminal interface"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+maintainers = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = ["encryption", "cryptography", "otp", "one-time-pad", "security", "xor", "terminal"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security :: Cryptography",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Systems Administration :: Security",
+]
+requires-python = ">=3.7"
+dependencies = []
+
+[project.scripts]
+otp-encrypt = "otp_encryption_suite.cli:main"
+otp = "otp_encryption_suite.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/otp-encryption-suite"
+Documentation = "https://github.com/yourusername/otp-encryption-suite#readme"
+Repository = "https://github.com/yourusername/otp-encryption-suite"
+"Bug Tracker" = "https://github.com/yourusername/otp-encryption-suite/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["otp_encryption_suite*"]
+
+[tool.setuptools.package-data]
+otp_encryption_suite = ["*.py"]

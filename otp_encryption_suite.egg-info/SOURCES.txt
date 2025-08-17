@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+otp_encryption_suite/__init__.py
+otp_encryption_suite/cli.py
+otp_encryption_suite/core.py
+otp_encryption_suite.egg-info/PKG-INFO
+otp_encryption_suite.egg-info/SOURCES.txt
+otp_encryption_suite.egg-info/dependency_links.txt
+otp_encryption_suite.egg-info/entry_points.txt
+otp_encryption_suite.egg-info/not-zip-safe
+otp_encryption_suite.egg-info/top_level.txt

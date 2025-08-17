@@ -1,0 +1,7 @@
+# OTP Encryption Suite Requirements
+# This tool uses only Python standard library modules
+# No external dependencies required
+
+# Optional: Add these if you want to support additional features
+# colorama>=0.4.6; sys_platform == "win32"  # Better Windows terminal support
+# click>=8.0.0  # For advanced CLI features

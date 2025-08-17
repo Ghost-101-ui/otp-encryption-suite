@@ -1,0 +1,3 @@
+[console_scripts]
+otp = otp_encryption_suite.cli:main
+otp-encrypt = otp_encryption_suite.cli:main
