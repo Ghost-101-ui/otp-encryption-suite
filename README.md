@@ -26,7 +26,9 @@ pip install otp-encryption-suite
 ```bash
 git clone https://github.com/Ghost-101-ui/otp-encryption-suite.git
 cd otp-encryption-suite
-pip install -e .
+pip install -e
+python otp.py
+
 ```
 
 #### Option 3: Direct Download
@@ -143,4 +145,5 @@ If you encounter any issues or have questions:
 ---
 
 **Remember**: This tool is for educational purposes and personal use. Always follow security best practices and never reuse encryption keys!
+
 
