@@ -5,7 +5,7 @@ A secure, hacker-styled One-Time Pad (OTP) encryption tool with a beautiful term
 ## ✨ Features
 
 - **🔐 True OTP Encryption**: One-time pad implementation using cryptographically secure random keys
-- **🎨 Hacker Aesthetic**: Beautiful terminal interface with ANSI colors and ASCII art
+- **🎨 Hacker Aesthetic**: Beautiful terminal interface with ANSI colors and ASCII art also GUI is there.
 - **📁 File Management**: Automatic file naming with incremental suffixes
 - **🔑 Key Management**: Secure key generation, storage, and verification
 - **📊 Progress Tracking**: Visual progress bars and loading animations
@@ -28,6 +28,8 @@ git clone https://github.com/Ghost-101-ui/otp-encryption-suite.git
 cd otp-encryption-suite
 pip install -e
 python otp.py
+#for GUI based
+python otp_gui.py
 
 ```
 
@@ -145,5 +147,6 @@ If you encounter any issues or have questions:
 ---
 
 **Remember**: This tool is for educational purposes and personal use. Always follow security best practices and never reuse encryption keys!
+
 
 
